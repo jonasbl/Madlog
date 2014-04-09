@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface FoodLogAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

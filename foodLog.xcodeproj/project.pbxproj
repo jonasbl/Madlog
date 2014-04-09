@@ -14,13 +14,20 @@
 		640A2C0B18BB8DCE009EC441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 640A2C0A18BB8DCE009EC441 /* main.m */; };
 		640A2C0F18BB8DCE009EC441 /* FoodLogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 640A2C0E18BB8DCE009EC441 /* FoodLogAppDelegate.m */; };
 		640A2C1218BB8DCE009EC441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640A2C1018BB8DCE009EC441 /* Main.storyboard */; };
-		640A2C1518BB8DCE009EC441 /* FoodLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640A2C1418BB8DCE009EC441 /* FoodLogViewController.m */; };
 		640A2C1718BB8DCE009EC441 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640A2C1618BB8DCE009EC441 /* Images.xcassets */; };
 		640A2C1E18BB8DCE009EC441 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640A2C1D18BB8DCE009EC441 /* XCTest.framework */; };
 		640A2C1F18BB8DCE009EC441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640A2BFE18BB8DCE009EC441 /* Foundation.framework */; };
 		640A2C2018BB8DCE009EC441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640A2C0218BB8DCE009EC441 /* UIKit.framework */; };
 		640A2C2818BB8DCE009EC441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 640A2C2618BB8DCE009EC441 /* InfoPlist.strings */; };
 		640A2C2A18BB8DCE009EC441 /* foodLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 640A2C2918BB8DCE009EC441 /* foodLogTests.m */; };
+		640A2C3B18BB9BC0009EC441 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 640A2C3A18BB9BC0009EC441 /* User.m */; };
+		6431893818DDB35E00215A59 /* ViewChosenProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6431893718DDB35E00215A59 /* ViewChosenProductViewController.m */; };
+		6449C29118C0DF2E004C98E1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6449C29018C0DF2E004C98E1 /* LoginViewController.m */; };
+		6449C29418C0DFA9004C98E1 /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6449C29318C0DFA9004C98E1 /* FoodTableViewController.m */; };
+		6449C29718C0DFF6004C98E1 /* AddToFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6449C29618C0DFF6004C98E1 /* AddToFoodTableViewController.m */; };
+		6449C29A18C0E057004C98E1 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6449C29918C0E057004C98E1 /* ProfileViewController.m */; };
+		644EBA2518C4E95900D6BEEC /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 644EBA2418C4E95900D6BEEC /* Product.m */; };
+		64B1A54118D33E7200B01EDA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B1A54018D33E7200B01EDA /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,27 @@
 		640A2C0D18BB8DCE009EC441 /* FoodLogAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodLogAppDelegate.h; sourceTree = "<group>"; };
 		640A2C0E18BB8DCE009EC441 /* FoodLogAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodLogAppDelegate.m; sourceTree = "<group>"; };
 		640A2C1118BB8DCE009EC441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		640A2C1318BB8DCE009EC441 /* FoodLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodLogViewController.h; sourceTree = "<group>"; };
-		640A2C1418BB8DCE009EC441 /* FoodLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodLogViewController.m; sourceTree = "<group>"; };
 		640A2C1618BB8DCE009EC441 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		640A2C1C18BB8DCE009EC441 /* foodLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640A2C1D18BB8DCE009EC441 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		640A2C2518BB8DCE009EC441 /* foodLogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "foodLogTests-Info.plist"; sourceTree = "<group>"; };
 		640A2C2718BB8DCE009EC441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		640A2C2918BB8DCE009EC441 /* foodLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodLogTests.m; sourceTree = "<group>"; };
+		640A2C3918BB9BC0009EC441 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		640A2C3A18BB9BC0009EC441 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6431893618DDB35E00215A59 /* ViewChosenProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewChosenProductViewController.h; sourceTree = "<group>"; };
+		6431893718DDB35E00215A59 /* ViewChosenProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewChosenProductViewController.m; sourceTree = "<group>"; };
+		6449C28F18C0DF2E004C98E1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6449C29018C0DF2E004C98E1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6449C29218C0DFA9004C98E1 /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		6449C29318C0DFA9004C98E1 /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		6449C29518C0DFF6004C98E1 /* AddToFoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToFoodTableViewController.h; sourceTree = "<group>"; };
+		6449C29618C0DFF6004C98E1 /* AddToFoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToFoodTableViewController.m; sourceTree = "<group>"; };
+		6449C29818C0E057004C98E1 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6449C29918C0E057004C98E1 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		644EBA2318C4E95900D6BEEC /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		644EBA2418C4E95900D6BEEC /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		64B1A54018D33E7200B01EDA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B1A54118D33E7200B01EDA /* libsqlite3.0.dylib in Frameworks */,
 				640A2C0118BB8DCE009EC441 /* CoreGraphics.framework in Frameworks */,
 				640A2C0318BB8DCE009EC441 /* UIKit.framework in Frameworks */,
 				640A2BFF18BB8DCE009EC441 /* Foundation.framework in Frameworks */,
@@ -101,6 +122,7 @@
 		640A2BFD18BB8DCE009EC441 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64B1A54018D33E7200B01EDA /* libsqlite3.0.dylib */,
 				640A2BFE18BB8DCE009EC441 /* Foundation.framework */,
 				640A2C0018BB8DCE009EC441 /* CoreGraphics.framework */,
 				640A2C0218BB8DCE009EC441 /* UIKit.framework */,
@@ -112,11 +134,9 @@
 		640A2C0418BB8DCE009EC441 /* foodLog */ = {
 			isa = PBXGroup;
 			children = (
-				640A2C0D18BB8DCE009EC441 /* FoodLogAppDelegate.h */,
-				640A2C0E18BB8DCE009EC441 /* FoodLogAppDelegate.m */,
-				640A2C1018BB8DCE009EC441 /* Main.storyboard */,
-				640A2C1318BB8DCE009EC441 /* FoodLogViewController.h */,
-				640A2C1418BB8DCE009EC441 /* FoodLogViewController.m */,
+				640A2C3518BB9A5E009EC441 /* ViewLayer */,
+				640A2C3418BB9A3F009EC441 /* ControllerLayer */,
+				640A2C3318BB9A1F009EC441 /* ModelLayer */,
 				640A2C1618BB8DCE009EC441 /* Images.xcassets */,
 				640A2C0518BB8DCE009EC441 /* Supporting Files */,
 			);
@@ -126,6 +146,8 @@
 		640A2C0518BB8DCE009EC441 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				640A2C0D18BB8DCE009EC441 /* FoodLogAppDelegate.h */,
+				640A2C0E18BB8DCE009EC441 /* FoodLogAppDelegate.m */,
 				640A2C0618BB8DCE009EC441 /* foodLog-Info.plist */,
 				640A2C0718BB8DCE009EC441 /* InfoPlist.strings */,
 				640A2C0A18BB8DCE009EC441 /* main.m */,
@@ -150,6 +172,42 @@
 				640A2C2618BB8DCE009EC441 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		640A2C3318BB9A1F009EC441 /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				644EBA2318C4E95900D6BEEC /* Product.h */,
+				644EBA2418C4E95900D6BEEC /* Product.m */,
+				640A2C3918BB9BC0009EC441 /* User.h */,
+				640A2C3A18BB9BC0009EC441 /* User.m */,
+			);
+			name = ModelLayer;
+			sourceTree = "<group>";
+		};
+		640A2C3418BB9A3F009EC441 /* ControllerLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6449C28F18C0DF2E004C98E1 /* LoginViewController.h */,
+				6449C29018C0DF2E004C98E1 /* LoginViewController.m */,
+				6449C29218C0DFA9004C98E1 /* FoodTableViewController.h */,
+				6449C29318C0DFA9004C98E1 /* FoodTableViewController.m */,
+				6449C29518C0DFF6004C98E1 /* AddToFoodTableViewController.h */,
+				6449C29618C0DFF6004C98E1 /* AddToFoodTableViewController.m */,
+				6449C29818C0E057004C98E1 /* ProfileViewController.h */,
+				6449C29918C0E057004C98E1 /* ProfileViewController.m */,
+				6431893618DDB35E00215A59 /* ViewChosenProductViewController.h */,
+				6431893718DDB35E00215A59 /* ViewChosenProductViewController.m */,
+			);
+			name = ControllerLayer;
+			sourceTree = "<group>";
+		};
+		640A2C3518BB9A5E009EC441 /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				640A2C1018BB8DCE009EC441 /* Main.storyboard */,
+			);
+			name = ViewLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +255,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FoodLog;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jonas Lauritsen";
 				TargetAttributes = {
 					640A2C1B18BB8DCE009EC441 = {
@@ -250,8 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640A2C3B18BB9BC0009EC441 /* User.m in Sources */,
 				640A2C0B18BB8DCE009EC441 /* main.m in Sources */,
-				640A2C1518BB8DCE009EC441 /* FoodLogViewController.m in Sources */,
+				6431893818DDB35E00215A59 /* ViewChosenProductViewController.m in Sources */,
+				6449C29A18C0E057004C98E1 /* ProfileViewController.m in Sources */,
+				6449C29118C0DF2E004C98E1 /* LoginViewController.m in Sources */,
+				6449C29718C0DFF6004C98E1 /* AddToFoodTableViewController.m in Sources */,
+				644EBA2518C4E95900D6BEEC /* Product.m in Sources */,
+				6449C29418C0DFA9004C98E1 /* FoodTableViewController.m in Sources */,
 				640A2C0F18BB8DCE009EC441 /* FoodLogAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +370,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +408,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -403,7 +465,6 @@
 		640A2C3118BB8DCE009EC441 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/foodLog.app/foodLog";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -426,7 +487,6 @@
 		640A2C3218BB8DCE009EC441 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/foodLog.app/foodLog";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -461,6 +521,7 @@
 				640A2C2F18BB8DCE009EC441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		640A2C3018BB8DCE009EC441 /* Build configuration list for PBXNativeTarget "foodLogTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +530,7 @@
 				640A2C3218BB8DCE009EC441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
