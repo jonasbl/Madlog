@@ -38,26 +38,6 @@
     {
         NSLog(@"Database opened");
     }
-    
-    char *error;
-    
-    
-    //Create product if table don't already exists
-    
-    NSString *sql = [NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS product(id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(50) NOT NULL, type VARCHAR(50) NOT NULL, fat VARCHAR(20), calories INTEGER, carbohydrates INTEGER, grams INTEGER, protein INTEGER, sugar INTEGER);"];
-    
-    if (sqlite3_exec(madLog, [sql UTF8String], NULL, NULL, &error) != SQLITE_OK)
-    {
-        sqlite3_close(madLog);
-        NSAssert(0, @"Could not create table");
-    }
-    else
-    {
-        NSLog(@"Table created");
-    }
-    
-    
-    
 }
 
 
@@ -112,7 +92,7 @@
     // else add product and reset the textfields
     else
     {
-        NSString *sql = [NSString stringWithFormat:@"INSERT INTO product('name', 'type', 'fat', 'calories', 'carbohydrates', 'grams', 'protein', 'sugar') VALUES ('%@', '%@', '%@', '%d', '%d', '%d', '%d', '%d')", name, type, fat, calories, carbohydrates, grams, protein, sugar];
+        NSString *sql = [NSString stringWithFormat:@"INSERT INTO product('name', 'type', 'fat', 'calories', 'carbohydrates', 'grams', 'protein', 'sugar') VALUES ('%@', '%@', '%@', '%d', '%d', '%d', '%d', '%d');", name, type, fat, calories, carbohydrates, grams, protein, sugar];
         
             char *error;
         
